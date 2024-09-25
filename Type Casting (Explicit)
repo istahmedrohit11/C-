@@ -1,0 +1,15 @@
+ /*
+int,float  4 Byte
+char,bool 1 Byte
+double 8 Byte
+ small to big conversion  will be atomaticly
+ for example: char  to int
+*/
+#include <iostream>
+using namespace std;
+int main(){
+  double price=100.99;
+  int new_price=(int)price;
+    cout <<new_price<<"\n";
+    return 0;
+}

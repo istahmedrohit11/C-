@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+int main(){
+   bool isSafe = true;
+     bool is_Safe = false;
+    cout <<isSafe<<"\t"<< is_Safe;
+    return 0;
+}

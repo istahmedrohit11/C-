@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b;
+    int sum;
+   cout<<"Enter two Number: ";
+   cin>> a>>b;
+   cout<<"Sum is "<<(a+b);
+    return 0;
+}
+or 
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b;
+    int sum;
+   cout<<"Enter a : ";
+   cin>> a;
+   cout<<"Enter b : ";
+   cin>> b;
+   cout<<"Sum is "<<(a+b);
+    return 0;
+}

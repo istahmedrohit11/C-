@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int age =25;
+    char grade='a';
+    float PI=3.14f;
+    cout << PI"\t"<< age;
+    return 0;
+}

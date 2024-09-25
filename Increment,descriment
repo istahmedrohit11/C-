@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int a=10;
+    int b=a++;// b=10,a=11
+   int c =++a; //c=12,a=12
+    cout<<"b= "<<b<<"\n";
+    cout<<"a= "<<a<<"\n";
+   cout<<"c= "<<c<<"\n";
+    return 0;
+}

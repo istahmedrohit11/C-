@@ -1,0 +1,15 @@
+/*
+int,float  4 Byte
+char,bool 1 Byte
+double 8 Byte
+ small to big conversion  will be atomicly
+ for example: char  to int
+*/
+#include <iostream>
+using namespace std;
+int main(){
+   char grade='A';
+   int value=grade;
+    cout <<value;
+    return 0;
+}
